@@ -1,0 +1,162 @@
+@media(max-width: 1200px){
+    .tajem_banner_content p{
+        padding: 0 80px;
+    }
+    .tajem_expert_items{
+        padding: 0;
+    }
+    .tajem_expert_text p{
+        font-size: 14px;
+        font-weight: 300;
+        color: #333333;
+        font-family: 'Roboto', sans-serif;
+        line-height: 22px;
+    }
+    .tajem_work_img{
+        width: 25%;
+    }
+}
+@media(max-width: 991px){
+    .header_navber_icons{
+        display: block;
+        text-align: right;
+    }
+    .header_navber{
+        background: -webkit-gradient(linear, left top, right top, from(rgba(9, 5, 47, 1)), to(rgba(49, 29, 94, 1)));
+        background: -o-linear-gradient(left, rgba(9, 5, 47, 1), rgba(49, 29, 94, 1));
+        background: linear-gradient(to right, rgba(9, 5, 47, 1), rgba(49, 29, 94, 1));
+        position: absolute;
+        top: 100%;
+        left: -250px;
+        z-index: 999;
+        width: 250px;
+        padding: 50px 30px;
+        text-align: center;
+        border-radius: 30px;
+    }
+    .header_navber a{
+        display: block;
+        margin: 15px 0;
+        font-size: 16px;
+    }
+    .header_navber_icons i{
+        font-size: 22px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .header_navber_icons i.fa-xmark{
+        display: none;
+    }
+    .tajem_banner_content h1{
+        font-size: 28px;
+    }
+    .tajem_banner_content p{
+        font-size: 14px;
+        margin: 30px 0;
+        padding: 0;
+    }
+    .tajem_banner_content h1::after{
+        bottom: -22px;
+        left: 50%;
+    }
+    .tajem_work_img{
+        width: 33.33%;
+    }
+    .tajem_contact_logo_items{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .tajem_contact_logo img{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    .tajem_work_buttons button{
+        margin-bottom: 15px;
+    }
+    .tajem_footer_content_one{
+        margin-bottom: 30px;
+    }
+    .tajem_footer_content_two{
+        margin-bottom: 30px;
+    }
+    .tajem_footer_content_two h4{
+        margin-bottom: 25px;
+    }
+    .tajem_footer_content_three h4{
+        margin-bottom: 25px;
+    }
+    .tajem_footer_copyright{
+        text-align: right;
+    }
+    .tajem_review{
+        padding: 80px 0 120px;
+    }
+    .tajem_team_item_img.three img{
+        border-top-left-radius: 50px;
+    }
+    .tajem_team_item_img.two img{
+        border-top-right-radius: 50px;
+    }
+}
+@media(max-width: 769px){
+    .tajem_footer_copyright{
+        text-align: left;
+        margin-top: 15px;
+    }
+    .tajem_review .slick-dots{
+        position: absolute;
+        bottom: -100px;
+        left: 49%;
+        -webkit-transform: translate(-50%);
+            -ms-transform: translate(-50%);
+                transform: translate(-50%);
+    }
+    .tajem_team_item_img.one img{
+        border-top-left-radius: 0px;
+    }
+    .tajem_team_item_img.two img{
+        border-top-right-radius: 0px;
+    }
+    .tajem_team_item_img.three img{
+        border-top-left-radius: 0px;
+    }
+    .tajem_team_item_img.four img{
+        border-top-right-radius: 0px;
+    }
+}
+@media(max-width: 575px){
+    .tajem_banner_content h1::after{
+        bottom: -15px;
+        left: 50%;
+    }
+    .tajem_banner_part{
+        padding: 130px 0 150px;
+    }
+    .slick-dots{
+        position: absolute;
+        bottom: -100px;
+        left: 46%;
+        -webkit-transform: translate(-50%);
+            -ms-transform: translate(-50%);
+                transform: translate(-50%);
+    }
+    .tajem_work_img{
+        width: 50%;
+    }
+}
+@media(max-width: 490px){
+    .tajem_banner_content h1{
+        font-size: 23px;
+        line-height: 29px;
+    }
+    .tajem_work_img{
+        width: 100%;
+    }
+    .tajem_footer_social_icons a i{
+        width: 40px;
+        height: 40px;
+        font-size: 17px;
+    }
+}
